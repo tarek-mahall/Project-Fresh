@@ -8,6 +8,7 @@ import Cart from './assets/Pages/Cart/Cart'
 import Products from './assets/Pages/Product/Product'
 import Categories from './assets/Pages/Categorie/Categorie'
 import Brandes from './assets/Pages/Brand/Brand'
+import NotFound from './assets/Pages/NotFound/NotFound'
 export default function App() {
   const routes=createBrowserRouter(
     [{path:"",element:<MainLayOut/>,children:[
@@ -18,6 +19,7 @@ export default function App() {
       {path: "products" , element:<Products/>},
       {path: "categories" , element:<Categories/>},
       {path: "brands" , element:<Brandes/>},
+      {path: "*" , element:<NotFound/>},
     ]
     }]
   )

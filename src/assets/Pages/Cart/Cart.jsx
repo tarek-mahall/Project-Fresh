@@ -1,7 +1,18 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function Cart() {
   return (
-    <div>Cart</div>
+    <>
+  
+    <Helmet>
+        <title>cart</title>
+      </Helmet>
+
+
+      <div>Cart</div>
+    </>
+
+  
   )
 }

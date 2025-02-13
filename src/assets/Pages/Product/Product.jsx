@@ -1,7 +1,20 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function Product() {
   return (
-    <div>Product</div>
+
+    <>
+  
+    <Helmet>
+        <title>product</title>
+      </Helmet>
+
+
+      <div>product</div>
+    </>
+
+    
+    
   )
 }

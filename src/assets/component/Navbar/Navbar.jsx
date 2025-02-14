@@ -19,7 +19,7 @@ export default function Navbar() {
     window.location.reload();
   };
   return (
-    <nav className="bg-white">
+    <nav className="bg-gray-300">
       <div className="w-5/6 flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="flex items-center justify-between w-full xl:w-auto">
           <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -52,7 +52,7 @@ export default function Navbar() {
                 <li>
                   <NavLink
                     to="/"
-                    className="block py-2 px-3 text-black hover:bg-blue-800 xl:hover:bg-transparent xl:hover:text-blue-800 xl:p-0"
+                    className="block py-2 px-3 text-black hover:bg-blue-900 xl:hover:bg-transparent xl:hover:text-blue-800 xl:p-0"
                     aria-current="page"
                     onClick={closeMenu}
                   >
@@ -62,7 +62,7 @@ export default function Navbar() {
                 <li>
                   <NavLink
                     to="/cart"
-                    className="block py-2 px-3 text-black hover:bg-blue-800 xl:hover:bg-transparent xl:hover:text-blue-800 xl:p-0"
+                    className="block py-2 px-3 text-black hover:bg-blue-900 xl:hover:bg-transparent xl:hover:text-blue-800 xl:p-0"
                     onClick={closeMenu}
                   >
                     Cart
@@ -71,7 +71,7 @@ export default function Navbar() {
                 <li>
                   <NavLink
                     to="/products"
-                    className="block py-2 px-3 text-black hover:bg-blue-800 xl:hover:bg-transparent xl:hover:text-blue-800 xl:p-0"
+                    className="block py-2 px-3 text-black hover:bg-blue-900 xl:hover:bg-transparent xl:hover:text-blue-800 xl:p-0"
                     onClick={closeMenu}
                   >
                     Products
@@ -80,7 +80,7 @@ export default function Navbar() {
                 <li>
                   <NavLink
                     to="/categories"
-                    className="block py-2 px-3 text-black hover:bg-blue-800 xl:hover:bg-transparent xl:hover:text-blue-800 xl:p-0"
+                    className="block py-2 px-3 text-black hover:bg-blue-900 xl:hover:bg-transparent xl:hover:text-blue-800 xl:p-0"
                     onClick={closeMenu}
                   >
                     Categories
@@ -89,7 +89,7 @@ export default function Navbar() {
                 <li>
                   <NavLink
                     to="/brands"
-                    className="block py-2 px-3 text-black hover:bg-blue-800 xl:hover:bg-transparent xl:hover:text-blue-800 xl:p-0"
+                    className="block py-2 px-3 text-black hover:bg-blue-900 xl:hover:bg-transparent xl:hover:text-blue-800 xl:p-0"
                     onClick={closeMenu}
                   >
                     Brands
@@ -103,7 +103,7 @@ export default function Navbar() {
                 <li className="xl:hidden">
                   <NavLink
                     to="/login"
-                    className="block py-2 px-3 text-black hover:bg-blue-800 xl:hover:bg-transparent xl:hover:text-blue-800 xl:p-0"
+                    className="block py-2 px-3 text-black hover:bg-blue-900 xl:hover:bg-transparent xl:hover:text-blue-800 xl:p-0"
                     onClick={closeMenu}
                   >
                     Login
@@ -112,7 +112,7 @@ export default function Navbar() {
                 <li className="xl:hidden">
                   <NavLink
                     to="/register"
-                    className="block py-2 px-3 text-black hover:bg-blue-800 xl:hover:bg-transparent xl:hover:text-blue-800 xl:p-0"
+                    className="block py-2 px-3 text-black hover:bg-blue-900 xl:hover:bg-transparent xl:hover:text-blue-800 xl:p-0"
                     onClick={closeMenu}
                   >
                     Register

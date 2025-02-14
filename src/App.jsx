@@ -9,6 +9,9 @@ import Products from './assets/Pages/Product/Product'
 import Categories from './assets/Pages/Categorie/Categorie'
 import Brandes from './assets/Pages/Brand/Brand'
 import NotFound from './assets/Pages/NotFound/NotFound'
+import ForgotPassword from './assets/Pages/ForgotPassword/ForgotPassword'
+import Verifycode from './assets/Pages/verifycode/verifycode'
+import ResetPassword from './assets/Pages/ResetPassword/ResetPassword'
 export default function App() {
   const routes=createBrowserRouter(
     [{path:"",element:<MainLayOut/>,children:[
@@ -19,6 +22,9 @@ export default function App() {
       {path: "products" , element:<Products/>},
       {path: "categories" , element:<Categories/>},
       {path: "brands" , element:<Brandes/>},
+      {path: "forgotpassword" , element:<ForgotPassword/>},
+      {path: "verifycode" , element:<Verifycode/>},
+      {path: "resetpassword" , element:<ResetPassword/>},
       {path: "*" , element:<NotFound/>},
     ]
     }]

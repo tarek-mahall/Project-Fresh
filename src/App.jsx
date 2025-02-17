@@ -12,6 +12,7 @@ import NotFound from './assets/Pages/NotFound/NotFound'
 import ForgotPassword from './assets/Pages/ForgotPassword/ForgotPassword'
 import Verifycode from './assets/Pages/verifycode/verifycode'
 import ResetPassword from './assets/Pages/ResetPassword/ResetPassword'
+import ProductDetails from './assets/Pages/ProductDetails/ProductDetails'
 export default function App() {
   const routes=createBrowserRouter(
     [{path:"",element:<MainLayOut/>,children:[
@@ -25,6 +26,7 @@ export default function App() {
       {path: "forgotpassword" , element:<ForgotPassword/>},
       {path: "verifycode" , element:<Verifycode/>},
       {path: "resetpassword" , element:<ResetPassword/>},
+      { path: "product/:id", element: <ProductDetails/> },
       {path: "*" , element:<NotFound/>},
     ]
     }]
